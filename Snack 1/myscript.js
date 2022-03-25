@@ -25,7 +25,6 @@ const biciCorsa =
     }
 ];
 
-let arr = [];
 let piccolo = biciCorsa[0];
 
 for (let i = 0; i < biciCorsa.length; i++) {
@@ -40,8 +39,8 @@ for (let i = 0; i < biciCorsa.length; i++) {
 let {nome, peso} = piccolo;
 stamp.innerHTML = 
 `
-<div>nome => ${nome} </div>
-<div>peso => ${peso} </div>
+<div>nome = ${nome} </div>
+<div>peso = ${peso} </div>
 `
 
 console.log(piccolo);
